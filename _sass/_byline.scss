@@ -1,0 +1,40 @@
+.byline {
+    margin-left: 1em; // align with tags
+
+    .avatar {
+        border: none;
+        border-radius: 50%;
+        color: transparent;
+        float: left;
+        width: 48px;
+        height: 48px;
+        margin-right: 0.5em;
+        overflow: hidden;
+        position: relative;
+        vertical-align: middle;
+    }
+
+    .name {
+        opacity: 0.8;
+    }
+
+    .description {
+        opacity: 0.67;
+
+        &::before {
+            content: " | ";
+        }
+    }
+
+    .read-time {
+        opacity: 0.8;
+        font-size: 0.9em;
+        line-height: 1em;
+    }
+
+    .read-time::before {
+        display: inline-block;
+        margin: 0 0.25em;
+        content: " · ";
+    }
+}

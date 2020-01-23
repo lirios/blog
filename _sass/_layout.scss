@@ -1,0 +1,48 @@
+body > section {
+    margin: 0 auto;
+    max-width: var(--page-width);
+    padding: 0 1rem;
+}
+
+body > footer {
+    display: flex;
+    flex-flow: wrap-reverse;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding: 0 1rem;
+
+    ul {
+        display: inline-block;
+        flex: 0 0 auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        list-style: none;
+        vertical-align: middle;
+    }
+
+    a {
+        display: inline-block;
+        opacity: 1;
+        padding: 0 0.4rem;
+        text-decoration: none;
+    }
+}
+
+.license {
+    display: block;
+    //font-family: var(--mdc-typography--subtitle1);
+    //font-size: 0.75rem;
+    //line-height: 1.5em;
+    margin: 0 auto;
+    max-width: 360px;
+    text-align: center;
+  
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+  }

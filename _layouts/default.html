@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head.html %}
+  <body class="mdc-typography">
+    {% include nav.html %}
+      <main class="mdc-top-app-bar--fixed-adjust">
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+                <a name="top"></a>
+                {{ content | replace: '<a href="http', '<a rel="nofollow noopener noreferrer" target="_blank" href="http' }}
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+          </div>
+        </div>
+    </main>
+    {% include scripts.html %}
+    {% include footer.html %}
+  </body>
+</html>

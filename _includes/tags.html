@@ -1,0 +1,11 @@
+<div class="mdc-chip-set" role="grid">
+  <div class="mdc-chip" role="row">
+    <div class="mdc-chip__ripple"></div>
+    <span role="gridcell">
+      {% assign sortedTags = page.tags | sort %}
+      {% for tag in sortedTags %}
+        <a role="button" class="mdc-chip__text" href="{{site.baseurl}}/tags/#{{ tag | replace: ' ', '-' }}">#{{ tag }}</a>
+      {% endfor %}
+    </span>
+  </div>
+</div>
