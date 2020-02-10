@@ -27,7 +27,7 @@ url: "https://blog.liri.io" # the base hostname & protocol for your site, e.g. h
 permalink: /:title/
 
 gravatar: 6bd4ffe18d3d2b09bf4b55b78729fafc
-twitter_username: liridev
+twitter: liridev
 github_username:  lirios
 
 authors:
