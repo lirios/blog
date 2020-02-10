@@ -23,10 +23,10 @@
   <div class="author">
     <span class="mdc-typography--subtitle1">{{ author.name }}</span>
     {% if author.description and page.layout == 'post' %}
-      <span class="mdc-typography--subtitle1 description">{{ author.description }}</span>
+      <span class="description mdc-typography--subtitle1">{{ author.description }}</span>
     {% endif %}
   </div>
-  <time class="post-date" datetime="{{ date | date:"%Y-%m-%d" }}">{{ date | date: "%a, %b %e, %Y" }}</time>
+  <time class="post-date mdc-typography--body1" datetime="{{ date | date:"%Y-%m-%d" }}">{{ date | date: "%a, %b %e, %Y" }}</time>
   {% if include.content %}
     {% include read-time.html content=include.content %}
   {% endif %}

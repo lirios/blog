@@ -6,16 +6,16 @@
   {% endif %}
 
   <header>
-    <h2>{% include title.html title=post.title %}</h2>
+    <h2 class="mdc-typography--headline6">{% include title.html title=post.title %}</h2>
     {% if post.description %}
-      <h3>{% include title.html title=post.description %}</h3>
+      <h3 class="mdc-typography--subtitle1">{% include title.html title=post.description %}</h3>
     {% endif %}
 
     {% include byline.html author=post.author date=post.date content=post.content %}
   </header>
 
   {% unless post.image %}
-    <section class="excerpt">
+    <section class="mdc-typography--body2">
       <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
       <span>Read more…</span>
     </section>

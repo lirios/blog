@@ -19,7 +19,7 @@
     }
 
     .description {
-        opacity: 0.67;
+        color: var(--mdc-theme-text-secondary-on-background,rgba(0,0,0,.67));
 
         &::before {
             content: " | ";
@@ -27,9 +27,7 @@
     }
 
     .read-time {
-        opacity: 0.8;
-        font-size: 0.9em;
-        line-height: 1em;
+        color: var(--mdc-theme-text-secondary-on-background,rgba(0,0,0,.8));
     }
 
     .read-time::before {

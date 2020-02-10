@@ -6,19 +6,19 @@ layout: default
   {% if page.hidden %}
     <aside class="embargo">
       {% if page.hidden != "true" %}
-        <h1>Under embargo until {{ page.hidden | date: "%a, %b %e, %Y %H:%M" }} UTC!</h1>
+        <h2 class="mdc-typography--headline2">Under embargo until {{ page.hidden | date: "%a, %b %e, %Y %H:%M" }} UTC!</h2>
         <p>Please respect the embargo by not sharing this URL. The content below may be subject to minor changes before the embargo is lifted.</p>
       {% else %}
-        <h1>Note: This post is hidden!</h1>
+        <h2 class="mdc-typography--headline2">Note: This post is hidden!</h2>
         <p>Please respect any embargoes by not sharing this URL. The content below may be unfinished, inaccurate, or subject to change.</p>
       {% endif %}
       <hr />
     </aside>
   {% endif %}
   <header>
-    <h1 class="mdc-typography--headline5">{% include title.html title=page.title %}</h1>
+    <h2 class="mdc-typography--headline6">{% include title.html title=page.title %}</h2>
     {% if page.description %}
-      <h2 class="mdc-typography--headline6">{% include title.html title=page.description %}</h2>
+      <h3 class="mdc-typography--subtitle1">{% include title.html title=page.description %}</h3>
     {% endif %}
 
     {% include byline.html author=page.author date=page.date content=page.content %}
@@ -33,7 +33,7 @@ layout: default
 {% include license.html %}
 {% include social.html %}
 
-<h2 class="up-next">Up Next</h2>
+<h2 class="mdc-typography--headline6">Up Next</h2>
 
 {% if page.next %}
   {% unless page.next.hidden %}
