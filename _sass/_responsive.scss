@@ -1,0 +1,36 @@
+@media all and (max-width: 959px) {
+    .show-on-desktop {
+        visibility: visible !important;
+    }
+    .show-on-tablet {
+        visibility: hidden !important;
+    }
+    .show-on-phone {
+        visibility: hidden !important;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .show-on-desktop {
+        visibility: hidden !important;
+    }
+    .show-on-tablet {
+        display: block;
+    }
+    .show-on-phone {
+        display: none;
+        visibility: hidden !important;
+    }
+}
+
+@media all and (max-width: 479px) {
+    .show-on-desktop {
+        display: none;
+    }
+    .show-on-tablet {
+        display: none;
+    }
+    .show-on-phone {
+        display: block;
+    }
+}
