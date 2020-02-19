@@ -5,7 +5,10 @@ This Liri Blog is based on [Jekyll](https://jekyllrb.com/).
 
 You can see it online at [blog.liri.io](https://blog.liri.io/).
 
-This was initially inspider by [@elementary/blog-template](https://github.com/elementary/blog-template).
+Layout and style are inspired by [Medium](https://medium.com/liridev)
+and the [Google Blog](https://www.blog.google).
+
+The code was initially based upon [@elementary/blog-template](https://github.com/elementary/blog-template).
 
 ## Editing workflow
 

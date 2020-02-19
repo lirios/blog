@@ -16,14 +16,14 @@ layout: default
     </aside>
   {% endif %}
   <header>
-    <h2 class="mdc-typography--headline6">{% include title.html title=page.title %}</h2>
-    {% if page.description %}
-      <h3 class="mdc-typography--subtitle1">{% include title.html title=page.description %}</h3>
-    {% endif %}
+    <h1 class="mdc-typography--headline2">{% include title.html title=page.title %}</h1>
 
     {% include byline.html author=page.author date=page.date content=page.content %}
     {% include tags.html %}
+    {% include social.html %}
   </header>
+
+  <div class="post-divider"></div>
 
   <section class="mdc-typography--body1">
     {{ content }}
@@ -31,7 +31,6 @@ layout: default
 </article>
 
 {% include license.html %}
-{% include social.html %}
 
 <h2 class="mdc-typography--headline6">Up Next</h2>
 

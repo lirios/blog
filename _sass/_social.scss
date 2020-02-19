@@ -1,0 +1,32 @@
+// Mobile
+@media (max-width: 1023px) {
+    .social {
+        .share {
+            width: 100%;
+            z-index: 1;
+        }
+    }
+}
+
+// Desktop
+@media (min-width: 1024px) {
+    .social {
+        position: relative;
+
+        .share {
+            left: 30vw;
+            margin: 0 auto;
+            max-width: 1280px;
+            padding: 0 32px;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 100%;
+            z-index: 1;
+    
+            nav {
+                margin-left: auto;
+                width: 30px;
+            }
+        }
+    }
+}

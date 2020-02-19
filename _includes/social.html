@@ -1,45 +1,45 @@
 <div class="social">
   <div class="share">
-    <h2 class="mdc-typography--headline6">Share</h2>
     {% assign share-url = page.url | prepend: site.baseurl | prepend: site.url %}
+    <nav>
+      <a
+        class="material-icons mdc-icon-button"
+        href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ share-url }}&via={{ site.twitter }}&original_referer={{ share-url }}"
+        rel="noreferrer nofollow noopener"
+        target="_blank"
+        title="Twitter"
+      >
+        <span class="mdc-icon-button__icon mdi mdi-twitter"></span>
+      </a>
 
-    <a
-      class="material-icons mdc-icon-button"
-      href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ share-url }}&via={{ site.twitter }}&original_referer={{ share-url }}"
-      rel="noreferrer nofollow noopener"
-      target="_blank"
-      title="Twitter"
-    >
-      <span class="mdc-icon-button__icon mdi mdi-twitter"></span>
-    </a>
+      <a
+        class="material-icons mdc-icon-button"
+        href="http://www.reddit.com/submit?title={{ page.title }}&url={{ share-url }}"
+        rel="noreferrer nofollow noopener"
+        target="_blank"
+        title="Reddit"
+      >
+        <span class="mdc-icon-button__icon mdi mdi-reddit"></span>
+      </a>
 
-    <a
-      class="material-icons mdc-icon-button"
-      href="http://www.reddit.com/submit?title={{ page.title }}&url={{ share-url }}"
-      rel="noreferrer nofollow noopener"
-      target="_blank"
-      title="Reddit"
-    >
-      <span class="mdc-icon-button__icon mdi mdi-reddit"></span>
-    </a>
+      <a
+        class="material-icons mdc-icon-button"
+        href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}"
+        rel="noreferrer nofollow noopener"
+        target="_blank"
+        title="Facebook"
+      >
+        <span class="mdc-icon-button__icon mdi mdi-facebook"></span>
+      </a>
 
-    <a
-      class="material-icons mdc-icon-button"
-      href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}"
-      rel="noreferrer nofollow noopener"
-      target="_blank"
-      title="Facebook"
-    >
-      <span class="mdc-icon-button__icon mdi mdi-facebook"></span>
-    </a>
+      <a
+        class="material-icons mdc-icon-button"
+        href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"
 
-    <a
-      class="material-icons mdc-icon-button"
-      href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"
-
-      title="Permalink"
-    >
-      <span class="mdc-icon-button__icon mdi mdi-link-variant"></span>
-    </a>
+        title="Permalink"
+      >
+        <span class="mdc-icon-button__icon mdi mdi-link-variant"></span>
+      </a>
+    </nav>
   </div>
 </div>
