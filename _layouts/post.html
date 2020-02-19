@@ -32,16 +32,26 @@ layout: default
 
 {% include license.html %}
 
-<h2 class="mdc-typography--headline6">Up Next</h2>
+<div class="upnext">
+  <div class="upnext-header">
+    <h2 class="mdc-typography--headline6">Up Next</h2>
+  </div>
 
-{% if page.next %}
-  {% unless page.next.hidden %}
-    {% include featured.html post=page.next %}
-  {% endunless %}
-{% endif %}
+  <div class="upnext-list">
+    <div class="upnext-list-outer">
+      <div class="mdc-layout-grid">
+        {% if page.next %}
+          {% unless page.next.hidden %}
+            {% include upnext.html post=page.next %}
+          {% endunless %}
+        {% endif %}
 
-{% if page.previous %}
-  {% unless page.previous.hidden %}
-    {% include featured.html post=page.previous %}
-  {% endunless %}
-{% endif %}
+        {% if page.previous %}
+          {% unless page.previous.hidden %}
+            {% include upnext.html post=page.previous %}
+          {% endunless %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

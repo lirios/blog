@@ -1,0 +1,14 @@
+{% assign post = include.post %}
+
+<div class="upnext-item mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-ripple-surface mdc-ripple-upgraded mdc-ripple-upgraded--background-active-fill mdc-ripple-upgraded--foreground-activation">
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    {% if post.image %}
+      <img class="article--image" src="{{ post.image | prepend: site.baseurl }}">
+    {% endif %}
+
+    <div class="article--content">
+      <div class="article--content-headline">{{ post.title }}</div>
+      {% if post.description %}<div class="article--content-dek">{{ post.description }}</div>{% endif %}
+    </div>
+  </a>
+</div>
