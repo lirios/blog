@@ -1,0 +1,32 @@
+body > footer {
+    overflow-x: auto;
+    padding: 1rem 1rem;
+    background-color: #f8f9fa;
+    margin-top: 48px;
+
+    ul {
+        display: inline-block;
+        flex: 0 0 auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        list-style: none;
+        vertical-align: middle;
+    }
+
+    a {
+        display: inline-block;
+        opacity: 1;
+        padding: 0 0.4rem;
+        text-decoration: none;
+    }
+
+    section.links {
+        display: flex;
+        flex-flow: wrap-reverse;
+        justify-content: space-between;
+    }
+}

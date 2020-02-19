@@ -1,10 +1,26 @@
-<footer class="mdc-typography--subtitle2">
-  <p>&copy; {{ site.time | date: '%Y' }} Liri. All trademarks and registered trademarks are the property of their respective owners.</p>
-  <ul>
-    <li><a href="https://liri.io/community/code-of-conduct" target="_self">Code of Conduct</a></li>
-    <li><a href="https://liri.io/community/governance-model" target="_self">Governance Model</a></li>
-    <!-- <li><a href="https://liri.io/privacy" target="_self">Privacy</a></li> -->
-    <li><a href="https://liri.io/team" target="_self">Team</a></li>
-    <!-- <li><a href="https://liri.io/open-source" target="_self">Open Source</a></li> -->
-  </ul>
+<footer>
+  <section class="social">
+      <a class="material-icons mdc-icon-button" aria-label="RSS Feed"
+         title="RSS Feed" href="{{ site.baseurl }}/feed.xml">rss_feed</a>
+      <a class="material-icons mdc-icon-button" aria-label="Chat" target="_blank" rel="noopener"
+         title="Chat" href="https://riot.im/app/#/room/#liri:matrix.org"><span class="mdc-icon-button__icon mdi mdi-chat"></span></a>
+      <a class="material-icons mdc-icon-button" aria-label="Facebook" target="_blank" rel="noopener"
+         title="Facebook" href="https://www.facebook.com/Liri-935614733238741"><span class="mdc-icon-button__icon mdi mdi-facebook"></span></a>
+      <a class="material-icons mdc-icon-button" aria-label="Twitter" target="_blank" rel="noopener"
+         title="Twitter" href="https://twitter.com/liridev"><span class="mdc-icon-button__icon mdi mdi-twitter"></span></a>
+      <a class="material-icons mdc-icon-button" aria-label="Mastodon" target="_blank" rel="noopener"
+         title="Mastodon" href="https://mastodon.cloud/@liri"><span class="mdc-icon-button__icon mdi mdi-mastodon"></span></a>
+      <a class="material-icons mdc-icon-button" aria-label="Reddit" target="_blank" rel="noopener"
+         title="Reddit" href="https://www.reddit.com/r/liri"><span class="mdc-icon-button__icon mdi mdi-reddit"></span></a>
+  </section>
+  <section class="links mdc-typography--subtitle2">
+    <p>&copy; {{ site.time | date: '%Y' }} Liri. All trademarks and registered trademarks are the property of their respective owners.</p>
+    <ul>
+      <li><a href="https://liri.io/community/code-of-conduct" target="_self">Code of Conduct</a></li>
+      <li><a href="https://liri.io/community/governance-model" target="_self">Governance Model</a></li>
+      <!-- <li><a href="https://liri.io/privacy" target="_self">Privacy</a></li> -->
+      <li><a href="https://liri.io/team" target="_self">Team</a></li>
+      <!-- <li><a href="https://liri.io/open-source" target="_self">Open Source</a></li> -->
+    </ul>
+  </section>
 </footer>
