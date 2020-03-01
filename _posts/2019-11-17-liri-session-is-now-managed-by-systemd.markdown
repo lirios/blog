@@ -4,9 +4,20 @@ title: "Liri session is now managed by systemd"
 description: ""
 author: plfiorini
 date: 2019-11-17 00:00:00 +0100
+image: https://source.unsplash.com/BStW5kYXw4E/400x300
 tags:
   - updates
 ---
+
+<figure markdown="1">
+
+![Photo](https://source.unsplash.com/BStW5kYXw4E/800x600)
+<figcaption>
+Photo by <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/@freestocks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">freestocks</a>
+on <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</figcaption>
+
+</figure>
 
 Recent Liri desktop architectural changes made it possible to start the desktop and applications using systemd   For a long time I desired to implement this, but it wasn’t possible before landing some architectural changes.
 

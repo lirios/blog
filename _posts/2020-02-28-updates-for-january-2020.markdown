@@ -4,9 +4,20 @@ title: "Updates for January, 2020"
 description: "Focus on Liri OS live images"
 author: plfiorini
 date: 2020-02-28 13:05:11 +0100
+image: https://source.unsplash.com/TGeFx4x4NHU/400x300
 tags:
   - updates
 ---
+
+<figure markdown="1">
+
+![Photo](https://source.unsplash.com/TGeFx4x4NHU/800x600)
+<figcaption>
+Photo by <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/@glencarrie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Glen Carrie</a>
+on <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</figcaption>
+
+</figure>
 
 January was all about making progress on how Liri OS live images.
 

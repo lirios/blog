@@ -4,9 +4,20 @@ title: "Liri Roadmap for 2017"
 description: "Roadmap for 2017"
 author: plfiorini
 date: 2017-04-26 00:00:00 +0100
+image: https://source.unsplash.com/6gQjPGx1uQw/400x300
 tags:
   - roadmap
 ---
+
+<figure markdown="1">
+
+![Photo](https://source.unsplash.com/6gQjPGx1uQw/800x600)
+<figcaption>
+Photo by <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/@jamietempleton?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Templeton</a>
+on <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</figcaption>
+
+</figure>
 
 **With 2017 already started and a few releases behind us, I want to provide an
 insight about what we are currently working on and what the future holds.**

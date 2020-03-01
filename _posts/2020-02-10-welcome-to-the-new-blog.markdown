@@ -4,10 +4,21 @@ title: "Welcome to the new blog"
 description: "How we moved from Medium"
 author: plfiorini
 date: 2020-02-10 19:05:00 +0100
+image: https://source.unsplash.com/4hbJ-eymZ1o/400x300
 tags:
   - evergreen
   - meta
 ---
+
+<figure markdown="1">
+
+![Photo](https://source.unsplash.com/4hbJ-eymZ1o/800x600)
+<figcaption>
+Photo by <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/@rxspawn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Olivo</a>
+on <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</figcaption>
+
+</figure>
 
 In 2017, we started writing blog posts in a [Medium publication](https://medium.com/liridev).
 Medium appeared to be a simple, clean and reader-focused host for writers.
