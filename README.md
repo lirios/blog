@@ -5,8 +5,8 @@ This Liri Blog is based on [Jekyll](https://jekyllrb.com/).
 
 You can see it online at [blog.liri.io](https://blog.liri.io/).
 
-Layout and style are inspired by [Medium](https://medium.com/liridev)
-and the [Google Blog](https://www.blog.google).
+Layout and style are inspired by [Medium](https://medium.com/liridev),
+[Google Blog](https://www.blog.google) and [Google Design](https://design.google).
 
 The code was initially based upon [@elementary/blog-template](https://github.com/elementary/blog-template).
 
