@@ -3,7 +3,7 @@ layout:	post
 title: "Updates for April, 2020"
 description: "Continuous Integration"
 author: plfiorini
-date: 2020-05-01 08:00:00 +0100
+date: 2020-05-01 09:52:00 +0200
 image: https://source.unsplash.com/P6YxhqqcFJ4/400x266
 tags:
   - updates

@@ -3,7 +3,7 @@ layout:	post
 title: "Updates for March, 2020"
 description: "XDG portal improvements and OS installer fixes"
 author: plfiorini
-date: 2020-05-01 08:00:00 +0100
+date: 2020-05-01 08:00:00 +0200
 image: https://source.unsplash.com/5eyAJMTb6mM/400x266
 tags:
   - updates
