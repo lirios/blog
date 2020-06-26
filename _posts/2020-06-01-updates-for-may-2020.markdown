@@ -40,8 +40,8 @@ The build workflow got some improvements.  Previously we were building on Ubuntu
 However [ppa-beineri][ppa-beineri] doesn't build with EGL support, but this makes building
 [eglfs][eglfs] impossible.
 
-In order to overcome this difficulty, I made OpenSuSE Tumbleweed images with all the dependencies.
-One image for each Qt version we are building against.
+In order to overcome this difficulty, there are OpenSuSE Tumbleweed images now
+with all the dependencies.  One image for each Qt version we are building against.
 
 At the time of this writing, the Qt versions supported are 5.12 because it's a LTS release,
 then the latest two version 5.14 and 5.15.
