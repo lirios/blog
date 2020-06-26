@@ -4,14 +4,14 @@ title: "Updates for May, 2020"
 description: "Continuous Integration"
 author: plfiorini
 date: 2020-06-01 09:52:00 +0200
-image: https://source.unsplash.com/P6YxhqqcFJ4/684x456
+image: https://source.unsplash.com/xEG5Agjb_5s/228x342
 tags:
   - updates
 ---
 
 <figure markdown="1">
 
-![Photo](https://source.unsplash.com/xEG5Agjb_5s/912x1368)
+![Photo](https://source.unsplash.com/xEG5Agjb_5s/456x684)
 <figcaption>
 Photo by <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/@glencarrie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Glen Carrie</a>
 on <a target="_blank" rel="noopener nofollow" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
