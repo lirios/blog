@@ -3,7 +3,7 @@ layout:	post
 title: "Updates for June, 2020"
 description: "Continuous Integration and OSTree"
 author: plfiorini
-date: 2020-06-01 19:52:00 +0200
+date: 2020-07-01 19:52:00 +0200
 image: https://source.unsplash.com/rjIMBeK3jmE/342x228
 tags:
   - updates
