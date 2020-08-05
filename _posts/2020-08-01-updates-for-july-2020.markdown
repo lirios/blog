@@ -3,7 +3,7 @@ layout:	post
 title: "Updates for July, 2020"
 description: "AppCenter improvements, Fluid documentation and Flatpak nightly repository"
 author: plfiorini
-date: 2020-06-01 09:52:00 +0200
+date: 2020-08-01 09:52:00 +0200
 image: https://source.unsplash.com/Sp7AM4wIeQE/342x228
 tags:
   - updates
